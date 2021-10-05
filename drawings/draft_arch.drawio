@@ -1,0 +1,190 @@
+<mxfile>
+    <diagram id="OthD2w1cVZiXBQd2KBgQ" name="Page-1">
+        <mxGraphModel dx="802" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="83" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#A1ABC9;" vertex="1" parent="1">
+                    <mxGeometry x="237.5" y="520" width="405" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A3B6C7;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="20" width="380" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="30" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#54D9E8;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="300" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font color=&quot;#000000&quot;&gt;ps-automation&lt;/font&gt;&lt;br&gt;Container Registry" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_registry;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="14" vertex="1">
+                    <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+                        <mxPoint x="5" y="-19.5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-50" y="29.629999999999995" as="sourcePoint"/>
+                        <mxPoint y="29" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Github&lt;br&gt;repository under test&lt;br&gt;(PR and commits)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="85" y="60" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="54.63" as="sourcePoint"/>
+                        <mxPoint x="246.1400000000001" y="54.496498840675606" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.447;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="9" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="184.63" as="sourcePoint"/>
+                        <mxPoint x="246.1400000000001" y="184.4964988406756" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="65" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="pipeline run&lt;br&gt;Test&lt;br&gt;Resuls" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="70.83" y="140" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#4C5C8A;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="346" width="160" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="ps-devsecops-gke&lt;br&gt;k8s cluster" style="dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.cluster;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" parent="28" vertex="1">
+                    <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
+                        <mxPoint x="5" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="540" y="300" width="70" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" parent="30" vertex="1">
+                    <mxGeometry width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Docker&lt;br&gt;build-and-push&lt;br&gt;task to gcrr.io" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="30" vertex="1">
+                    <mxGeometry x="-20" y="47.5" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BC1356;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.template;" parent="1" vertex="1">
+                    <mxGeometry x="52.5" y="250" width="33.33" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="269.63" as="sourcePoint"/>
+                        <mxPoint x="246.1400000000001" y="269.4964988406756" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="355" y="40" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=ns" parent="56" vertex="1">
+                    <mxGeometry width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="tekton-pipelines&lt;br&gt;Namespace" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="56" vertex="1">
+                    <mxGeometry x="9.166666666666668" y="43.75" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="540" y="30" width="60" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=node" parent="62" vertex="1">
+                    <mxGeometry x="5" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Tekton&lt;br&gt;Services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="62" vertex="1">
+                    <mxGeometry y="58" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="440" y="300" width="70" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=node" parent="64" vertex="1">
+                    <mxGeometry x="10" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="CN Series&amp;nbsp;&lt;br&gt;Firewall" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="64" vertex="1">
+                    <mxGeometry y="58" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="385" y="170" width="70" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=sa" parent="67" vertex="1">
+                    <mxGeometry x="5" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="cloudbot&lt;br&gt;GCP Cloud&lt;br&gt;Function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="67" vertex="1">
+                    <mxGeometry x="-10" y="48" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.345;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="54.629999999999995" as="sourcePoint"/>
+                        <mxPoint x="401.1400000000001" y="54.4964988406756" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="60.129999999999995" as="sourcePoint"/>
+                        <mxPoint x="540" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="495" y="60.129999999999995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="140.13" as="sourcePoint"/>
+                        <mxPoint x="400" y="170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="189.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="250" y="190.13" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="190.12999999999988"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;strokeColor=none;fillColor=#00BEF2;direction=north;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="400" width="60" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="300" y="570" width="330" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="gke-cluster&lt;br&gt;repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="81" vertex="1">
+                    <mxGeometry y="60" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="81">
+                    <mxGeometry x="5" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="81">
+                    <mxGeometry x="115" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="81">
+                    <mxGeometry x="245" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="cloudbot&lt;br&gt;repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="81">
+                    <mxGeometry x="110" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="ps-devsecops-infro&lt;br&gt;repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="81">
+                    <mxGeometry x="210" y="60" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Provision&lt;br&gt;(Terraform and YAML)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="530" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="61" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.458;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="61" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="465" y="280" as="sourcePoint"/>
+                        <mxPoint x="260" y="210" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="103"/>
+                            <mxPoint x="500" y="280"/>
+                            <mxPoint x="300" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
