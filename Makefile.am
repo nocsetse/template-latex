@@ -7,11 +7,6 @@ clean: ## Clean up your mess
 	rm -rf _build *.egg-info
 	@find . -name '*.pyc' | xargs rm -rf
 	@find . -name '__pycache__' | xargs rm -rf
-	@for trash in paper/*.aux paper/*.bbl paper/*.blg paper/*.lof paper/*.log paper/*.lot paper/*.out paper/*.pdf paper/*.synctex.gz paper/*.toc ; do \
-		if [ -f "$$trash" ]; then \
-			rm -rf $$trash ; \
-		fi ; \
-	done
 
 python:
 	@$(PY39) -m venv _build
