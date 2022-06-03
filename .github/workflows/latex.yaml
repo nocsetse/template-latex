@@ -11,5 +11,5 @@ jobs:
       - name: Compile Kerberos LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: kerberos.tex
+          root_file: paper/paper.tex
           args: '-pdf -file-line-error -interaction=nonstopmode -shell-escape'

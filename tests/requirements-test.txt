@@ -1,0 +1,9 @@
+flake8==4.0.1
+pytest==6.2.5
+coverage==6.1.2
+isort==5.10.1
+black==21.11.b0
+virtualenv==20.10.0
+#pycodestyle
+#autopep8
+wheel==0.37.1

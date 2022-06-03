@@ -7,17 +7,11 @@ clean: ## Clean up your mess
 	rm -rf _build *.egg-info
 	@find . -name '*.pyc' | xargs rm -rf
 	@find . -name '__pycache__' | xargs rm -rf
-	@for trash in *.aux *.bbl *.blg *.lof *.log *.lot *.out *.pdf *.synctex.gz *.toc ; do \
+	@for trash in paper/*.aux paper/*.bbl paper/*.blg paper/*.lof paper/*.log paper/*.lot paper/*.out paper/*.pdf paper/*.synctex.gz paper/*.toc ; do \
 		if [ -f "$$trash" ]; then \
 			rm -rf $$trash ; \
 		fi ; \
 	done
-
-.PHONY: paper
-paper: ## generate the PDF
-	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape kerberos
-	bibtex kerberos
-	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape kerberos 
 
 python:
 	@$(PY39) -m venv _build
@@ -34,5 +28,5 @@ test:
 		_build/bin/python -m pip install --upgrade pip; \
 		_build/bin/python -m pip install tox; \
 		_build/bin/python -m pip install -r tests/requirements-test.txt; \
+		_build/bin/python -m pip install -r tests/requirements-security.txt; \
 	)
-
