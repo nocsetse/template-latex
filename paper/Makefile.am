@@ -11,6 +11,6 @@ clean:
 	done
 
 paper: 
-	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape gnn
-	bibtex gnn
-	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape gnn 
+	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape paper
+	bibtex paper
+	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape paper
