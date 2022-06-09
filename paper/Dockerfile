@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.10.4-bullseye
+FROM python:3.10.5-bullseye
 
 ARG BUILD_DATE
 ARG USER="franklin"
