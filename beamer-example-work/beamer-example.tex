@@ -1,0 +1,151 @@
+% !TeX root = beamer-example.tex
+
+% Other possible values are: 1610, 149, 54, 43 and 32.
+% By default, it is to 128mm by 96mm(4:3)
+\documentclass[aspectratio=169]{beamer} 
+
+\include{preamble}
+
+% Table of Contents at Section start
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{\bfseries\Huge\textcolor{white}{Table of Contents}}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\begin{document}
+
+%%% Title Slide %%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/title_bg.png}}
+\begin{frame}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    \begin{textblock}{0.5}(0.05,0.25)
+      \bfseries\Huge{Business Plan}
+    \end{textblock}
+    % \begin{textblock}{WIDTH}(XCOORDINATE,YCOORDINATE)
+    \begin{textblock}{0.5}(0.65,0.52)
+        \bfseries\textcolor{white}{Franklin Diaz, Principal Engineer version 0.1}
+    \end{textblock}
+\end{frame}
+
+% Intro Section
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/section.png}}
+\section{Summary}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{Executive Summary}
+    \end{textblock}
+    % main body bullet points
+    \begin{itemize}
+        \item This is an example of a list.
+        \item Important business information.
+    \end{itemize}
+\end{frame}
+
+% Planning
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/section.png}}
+\section{Planning}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{The Premise}
+    \end{textblock}
+    % main body
+    \begin{itemize}
+        \item Doing some business planning.
+\end{frame}
+
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{Things we Might Ramp Up On}
+    \end{textblock}
+    % main body bullet points
+    \begin{itemize}
+        \item Crossplane for multicloud deployments (a quick start across two or more clouds) using Terraform/Pulumi
+        \item Kubernetes (GKE, EKS, AKS), build pipelines, data pipelines, and ML/AI pipelines.
+        \item Terratest (Golang code to test Terraform code)
+        \item XML API w/Panorama and VM Series via python.
+        \item Serverless functions (GCP Cloud Func/AWS Lambda) as containers/k8s pods
+        \item Deep learning containers and pipelines. Vertex AI.
+    \end{itemize} 
+\end{frame}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{All the things.}
+    \end{textblock}
+    % main body bullet points
+    \begin{itemize}
+        \item Important details.
+    \end{itemize}
+\end{frame}
+
+% Skunkworks Section
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/section.png}}
+\section{Happy Customers}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{Resources}
+    \end{textblock}
+    % main body bullet points
+    \begin{itemize} 
+        \item The most secure network possible.
+    \end{itemize} 
+\end{frame}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{Research and Future Proofing}
+    \end{textblock}
+    % main body bullet points
+    \begin{itemize}
+        \item Automated deploy of Panorama/vm-series/managed K8s/CN series.    
+    \end{itemize}
+\end{frame}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/blank_slide.png}}
+\begin{frame}{}
+    \setlength{\TPHorizModule}{\textwidth}
+    \setlength{\TPVertModule}{\textwidth}
+    % Slide title in upper left
+    \begin{textblock}{0.74}(0.05,0.05)
+        \bfseries\large\normalcolor{Some Working Proofs of Concept}
+    \end{textblock}
+    % main body bullet points
+    \begin{itemize}
+        \item \href{https://github.com/devsecfranklin/gke-cluster}{ps-devsecops-gke cluster} (Tekton pipeline)
+
+    \end{itemize}
+\end{frame}
+
+\end{document}
