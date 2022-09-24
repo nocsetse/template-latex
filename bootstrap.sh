@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# 2/25/2022 Maintainer script 
+# v0.1 02/25/2022 Maintainer script
+# v0.2 09/24/2022 Update this script
 
 # Author:  2730246+devsecfranklin@users.noreply.github.com 
 
@@ -74,21 +75,12 @@ function macos() {
 
 function debian {
   # sudo apt install gnuplot gawk libtool psutils make
-
-  if [ ! -f "./config.status" ]; then
-    libtoolize
-    if [ -d "aclocal" ]; then
-      autoreconf
-    else
-      mkdir aclocal
-      aclocal -I config
-      autoreconf -i
-    fi
-    automake -a -c --add-missing
-    ./configure
-  else
-    ./config.status
-  fi
+  if [ ! -d "aclocal" ]; then mkdir aclocal; fi
+  aclocal -I config
+  autoreconf -i
+  automake -a -c --add-missing
+  ./configure
+  #./config.status
 }
 
 function redhat() {
