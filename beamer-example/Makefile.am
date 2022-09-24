@@ -9,4 +9,4 @@ clean:
 	done
 
 slides:
-	latexmk -pdf -synctex=1 -shell-escape beamer-example-work
+	latexmk -pdf -synctex=1 -shell-escape beamer-example
