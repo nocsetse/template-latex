@@ -1,3 +1,10 @@
+# system artifacts
+.vscode
+*.code-workspace
+.DS_Store
+.nfs*
+
+# local build artifacts
 _build/
 
 # Core latex/pdflatex auxiliary files:

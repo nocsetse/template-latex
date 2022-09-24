@@ -1,6 +1,6 @@
 dnl Process this file with autoconf
 AC_PREREQ([2.69])
-AC_INIT(paper-template, 0.1, frank378@gmail.com, https://github.com/devsecfranklin/paper-template)
+AC_INIT(latex-template, 0.2, frank378@gmail.com, https://github.com/devsecfranklin/latex-template)
 AC_CONFIG_MACRO_DIR(config/m4)
 AC_CONFIG_AUX_DIR(config)
 AM_INIT_AUTOMAKE(foreign)
@@ -12,6 +12,7 @@ AC_CONFIG_COMMANDS([franklin-build],
  [mypkgname=$PACKAGE_NAME])
 AC_CONFIG_FILES([
  Makefile
+ beamer-example-work/Makefile
  paper/Makefile
 ])
 
