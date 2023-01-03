@@ -6,4 +6,4 @@ black==21.11.b0
 virtualenv==20.10.0
 #pycodestyle
 #autopep8
-wheel==0.37.1
+wheel==0.38.1
