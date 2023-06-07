@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.11.3-slim-buster
+FROM python:3.11.4-slim-buster
 
 LABEL maintainer="devsecfranklin <frank378@gmail.com>"
 LABEL org.opencontainers.image.source="https://github.com/devsecfranklin/talk-template"
