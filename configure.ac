@@ -1,6 +1,6 @@
 dnl Process this file with autoconf
 AC_PREREQ([2.69])
-AC_INIT(latex-template, 0.2, frank378@gmail.com, https://github.com/devsecfranklin/latex-template)
+AC_INIT(latex-template, 0.2, franklin@dead10c5.org, https://github.com/DEAD10C5/latex-template)
 AC_CONFIG_MACRO_DIR(config/m4)
 AC_CONFIG_AUX_DIR(config)
 AM_INIT_AUTOMAKE(foreign)

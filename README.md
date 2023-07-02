@@ -4,4 +4,3 @@
 
 * [Download the paper](paper/paper.pdf)
 
-![diagram](https://github.com/devsecfranklin/paper-template/blob/main/images/PANW_Parent_Brand_Primary_Logo_RGB_Red_White.png)
