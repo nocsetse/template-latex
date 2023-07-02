@@ -6,7 +6,7 @@
 # v0.4 11/10/2022 Add automake check
 # v0.5 11/15/2022 Handle Docker container builds
 
-# Author:  2730246+devsecfranklin@users.noreply.github.com 
+# Author:  franklin@dead10c5.org
 
 #set -eu
 
