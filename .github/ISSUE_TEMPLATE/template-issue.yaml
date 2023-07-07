@@ -1,0 +1,39 @@
+name: Template
+description: Issue with template repository
+title: "[Template]: "
+labels: ["documentation"]
+assignees:
+  - devsecfranklin
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your well considered comments.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: Explain the issue or request
+      description: Explain the issue or request
+      placeholder: Explain the issue or request
+      value: "Your well-considered feedback is appreciated! You can also paste error logs here."
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: type
+      description: Comment or error?
+      options:
+        - general comment
+        - found an error
+        - love note
+    validations:
+      required: true
