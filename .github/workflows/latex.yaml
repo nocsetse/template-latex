@@ -9,7 +9,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Compile Kerberos LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: paper.tex
           args: '-pdf -file-line-error -interaction=nonstopmode -shell-escape'
