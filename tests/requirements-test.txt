@@ -3,7 +3,7 @@ pytest==6.2.5
 coverage==6.1.2
 isort==5.10.1
 black==24.3.0
-virtualenv==20.10.0
+virtualenv==20.26.6
 #pycodestyle
 #autopep8
 wheel==0.38.1
