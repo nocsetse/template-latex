@@ -11,6 +11,8 @@ writting work with the LaTeX language.
 apt update && apt install -y cmake-qt-gui qt6-base-dev
 ```
 
+* (A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code)[https://mathjiajia.github.io/vscode-and-latex/]
+
 ## Slides
 
 * Beamer
